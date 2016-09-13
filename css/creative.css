@@ -159,7 +159,7 @@ header {
   background-position: center;
   background-image: url('../img/batman.png');
   text-align: center;
-  color: white;
+  color: black;
 }
 header .header-content {
   position: relative;
