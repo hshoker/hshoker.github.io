@@ -12,21 +12,19 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #000000;
+  border-color: #F05F40;
   border-width: 3px;
-  max-width: 300px;
+  max-width: 50px;
 }
 hr.light {
-  border-color: black;
-  border-width: 3px;
-  max-width: 700px;
+  border-color: white;
 }
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #F05F40;
-}`
+}
 a:hover,
 a:focus {
   color: #eb3812;
@@ -64,7 +62,7 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: black;
+  background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
@@ -117,7 +115,7 @@ aside {
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
-    color: red;
+    color: white;
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
@@ -125,7 +123,7 @@ aside {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: red;
+    color: white;
   }
   .navbar-default.affix {
     background-color: white;
@@ -159,7 +157,7 @@ header {
   background-position: center;
   background-image: url('../img/header.jpg');
   text-align: center;
-  color: black;
+  color: white;
 }
 header .header-content {
   position: relative;
@@ -213,16 +211,16 @@ header .header-content .header-content-inner p {
 .section-heading {
   margin-top: 0;
 }
-.experience-box {
+.service-box {
   max-width: 400px;
   margin: 50px auto 0;
 }
 @media (min-width: 992px) {
-  .experience-box {
+  .service-box {
     margin: 20px auto 0;
   }
 }
-.experience-box p {
+.service-box p {
   margin-bottom: 0;
 }
 .portfolio-box {
